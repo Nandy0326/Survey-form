@@ -1,0 +1,69 @@
+
+.container {
+    padding: 20px;
+  }
+  .asterisk {
+    color: red;
+  }
+  .inbox{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  .names {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    width: 100%;
+  }
+  #stars{
+    font-size: 25px;
+    color:lightcoral;
+  }
+  .lname {
+    align-self: end;
+  }
+  .exBox{
+    position: relative;
+  }
+  .email{
+    width: 100%;
+  }
+  #enmail{
+    width: 100%;
+  }
+  
+  .satisfied,
+  .likes,
+  .email,
+  .satisfied,
+  .overall,
+  .suggestions,
+  .experience{
+    margin-top: 30px;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  table {
+   border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td{
+    text-align: center;
+    padding: 0 20px;
+    
+  
+  }
+  
+  table tr td:first-child {
+    text-align: left;
+  }
+  textarea
+{
+    width: 100%;
+}
+label{
+    font-weight: 700;
+}
